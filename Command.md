@@ -1,0 +1,1 @@
+curl -X POST -H "content-type:application/json" "http://localhost:8080/" --data '{ "id" : "1" , "data" : { "fen" : "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1" , "move" : "e5" } }'
