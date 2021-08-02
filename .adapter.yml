@@ -1,0 +1,13 @@
+name: BiddingChess
+description: An adapter to validate chess moves.
+node_identifier: cl-chessAPI
+platforms:
+  - Docker
+  - AWS Lambda
+  - GCP Functions
+data_sources:
+  - name: bidding-chess
+    url: https://bidding-chess.netlify.app/.netlify/functions/api
+parameters:
+  - fen
+  - move
